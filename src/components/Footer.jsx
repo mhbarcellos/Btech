@@ -25,7 +25,7 @@ export default function Footer() {
               />
             </a>
             <p className="mt-4 max-w-md leading-7 text-muted">
-              Desenvolvimento de sites, landing pages, apps e sistemas digitais.
+              Desenvolvimento de sites profissionais, landing pages, aplicativos e sistemas web.
             </p>
             <div className="mt-5 grid gap-3 text-sm text-muted sm:grid-cols-2">
               <a href={contactLinks.instagram} target="_blank" rel="noreferrer" className="flex items-center gap-2 transition hover:text-cyan">

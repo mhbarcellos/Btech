@@ -187,7 +187,7 @@ export default function Services() {
         <SectionHeading
           eyebrow="Serviços"
           title="Soluções digitais para tirar sua ideia do papel"
-          text="Da primeira tela à evolução contínua, a BTech cria produtos digitais com estratégia, estética e base técnica."
+          text="Da criação de sites profissionais à evolução contínua, a BTech desenvolve soluções digitais com estratégia, estética e base técnica."
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

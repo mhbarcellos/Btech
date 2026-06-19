@@ -27,7 +27,7 @@ export default function Process() {
         <SectionHeading
           eyebrow="Processo"
           title="Como transformamos uma ideia em projeto"
-          text="Um caminho objetivo para sair do conceito e chegar em uma solução digital pronta para representar sua marca."
+          text="Um caminho objetivo para sair do conceito e chegar em uma solução digital pronta para fortalecer sua presença online."
         />
 
         <div className="relative mt-14 grid gap-5 lg:grid-cols-4">

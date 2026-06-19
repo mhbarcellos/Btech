@@ -11,7 +11,7 @@ export default function About() {
           align="left"
           eyebrow="Sobre"
           title="Tecnologia com estratégia, não só aparência"
-          text="A BTech ajuda marcas, empreendedores e empresas a criarem presença digital com mais qualidade. Desenvolvemos sites, landing pages, aplicativos e sistemas com foco em design, funcionalidade e objetivo de negócio."
+          text="A BTech ajuda marcas, empreendedores e empresas a criarem presença digital com mais qualidade. Trabalhamos com desenvolvimento de sites, landing pages, aplicativos e sistemas web com foco em design, funcionalidade e objetivo de negócio."
         />
 
         <motion.div

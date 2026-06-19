@@ -123,11 +123,11 @@ export default function Hero() {
             Desenvolvimento digital premium
           </div>
           <h1 className="text-balance text-4xl font-extrabold leading-tight tracking-normal text-pearl sm:text-5xl lg:text-6xl">
-            Criamos sites, apps e sistemas para marcas que querem crescer
+            Criamos sites profissionais, apps e sistemas para marcas que querem crescer
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-muted sm:text-xl">
-            A BTech desenvolve soluções digitais modernas, responsivas e estratégicas para
-            transformar ideias em experiências reais.
+            A BTech desenvolve sites, landing pages, aplicativos e sistemas web modernos,
+            responsivos e estratégicos para transformar ideias em presença digital real.
           </p>
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
             <a

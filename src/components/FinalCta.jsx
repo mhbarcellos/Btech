@@ -42,7 +42,8 @@ export default function FinalCta() {
               Vamos tirar sua ideia do papel?
             </h2>
             <p className="mt-5 text-lg leading-8 text-muted">
-              Fale com a BTech pelo WhatsApp, Instagram ou e-mail e conte o que você precisa criar.
+              Fale com a BTech pelo WhatsApp, Instagram ou e-mail e conte qual site,
+              landing page, aplicativo ou sistema web você precisa criar.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-3">
               {contactActions.map((action) => {
