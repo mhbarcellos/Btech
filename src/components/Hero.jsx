@@ -123,25 +123,27 @@ export default function Hero() {
             Desenvolvimento digital premium
           </div>
           <h1 className="text-balance text-4xl font-extrabold leading-tight tracking-normal text-pearl sm:text-5xl lg:text-6xl">
-            Criamos sites profissionais, apps e sistemas para marcas que querem crescer
+            Sites, landing pages e sistemas para transformar ideias em presença digital
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-muted sm:text-xl">
-            A BTech desenvolve sites, landing pages, aplicativos e sistemas web modernos,
-            responsivos e estratégicos para transformar ideias em presença digital real.
+            A BTech desenvolve projetos digitais modernos, responsivos e sob medida para
+            empresas, profissionais e marcas que precisam apresentar seus serviços com
+            clareza, autoridade e boa experiência de uso.
           </p>
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
             <a
               href={contactLinks.whatsapp}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-electric px-6 py-4 font-semibold text-white shadow-glow transition hover:-translate-y-1 hover:bg-cyan hover:text-ink"
+              aria-label="Falar sobre meu projeto pelo WhatsApp"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-electric px-6 py-4 font-semibold text-white shadow-glow transition hover:-translate-y-1 hover:bg-cyan hover:text-ink focus:outline-none focus:ring-2 focus:ring-cyan/60"
             >
-              Começar um projeto
+              Falar sobre meu projeto
               <ArrowRight size={19} />
             </a>
             <a
               href="#servicos"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-white/5 px-6 py-4 font-semibold text-pearl transition hover:-translate-y-1 hover:border-cyan/60 hover:bg-white/10"
+              className="inline-flex items-center justify-center gap-2 rounded-lg border border-line bg-white/5 px-6 py-4 font-semibold text-pearl transition hover:-translate-y-1 hover:border-cyan/60 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-cyan/60"
             >
               <Play size={18} />
               Ver serviços

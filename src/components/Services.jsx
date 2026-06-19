@@ -6,7 +6,7 @@ import SectionHeading from "./SectionHeading.jsx";
 const services = [
   {
     title: "Sites institucionais",
-    summary: "Sites modernos, responsivos e claros para apresentar empresas, marcas e profissionais.",
+    summary: "Sites profissionais e responsivos para apresentar sua empresa, seus serviços e seus canais de contato com clareza.",
     detail:
       "Ideal para apresentar a empresa, seus serviços, história, diferenciais e canais de contato em uma experiência clara e profissional.",
     includes: [
@@ -21,7 +21,7 @@ const services = [
   },
   {
     title: "Landing pages",
-    summary: "Páginas focadas em conversão para campanhas, lançamentos e captação de clientes.",
+    summary: "Páginas diretas para campanhas, divulgação de serviços e geração de contatos pelo WhatsApp ou formulário.",
     detail:
       "Páginas objetivas, criadas para conduzir o visitante com clareza desde a apresentação da oferta até a ação principal.",
     includes: [
@@ -36,7 +36,7 @@ const services = [
   },
   {
     title: "Aplicativos",
-    summary: "Apps com interface intuitiva e experiência pensada para o usuário.",
+    summary: "Aplicativos sob medida para transformar rotinas, registros e ideias recorrentes em experiências simples de usar.",
     detail:
       "Soluções indicadas para ideias que precisam de uso recorrente, navegação simples e uma experiência organizada para o usuário final.",
     includes: [
@@ -51,7 +51,7 @@ const services = [
   },
   {
     title: "Sistemas web",
-    summary: "Plataformas sob medida para organizar processos e melhorar operações.",
+    summary: "Sistemas web para centralizar informações, organizar processos e dar mais controle à operação.",
     detail:
       "Ajudam empresas a centralizar informações, automatizar tarefas e gerenciar dados com mais clareza e controle.",
     includes: [
@@ -66,7 +66,7 @@ const services = [
   },
   {
     title: "UI/UX Design",
-    summary: "Interfaces bonitas, organizadas e funcionais.",
+    summary: "Design de interfaces para criar telas bonitas, organizadas e fáceis de entender antes do desenvolvimento.",
     detail:
       "Envolve a construção da estrutura visual e da experiência do usuário, pensando em hierarquia, clareza e consistência.",
     includes: [
@@ -81,7 +81,7 @@ const services = [
   },
   {
     title: "Manutenção e evolução",
-    summary: "Ajustes, melhorias e acompanhamento técnico após a publicação.",
+    summary: "Acompanhamento técnico para corrigir, melhorar e evoluir projetos digitais depois da publicação.",
     detail:
       "Mantém o projeto atualizado, funcional e preparado para acompanhar novas necessidades da marca ou operação.",
     includes: [
@@ -186,8 +186,8 @@ export default function Services() {
       <div className="section-shell">
         <SectionHeading
           eyebrow="Serviços"
-          title="Soluções digitais para tirar sua ideia do papel"
-          text="Da criação de sites profissionais à evolução contínua, a BTech desenvolve soluções digitais com estratégia, estética e base técnica."
+          title="Serviços digitais para criar uma presença online mais profissional"
+          text="A BTech desenvolve sites profissionais, landing pages, aplicativos, sistemas web e interfaces sob medida para marcas que precisam comunicar melhor, organizar processos e facilitar o contato."
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
