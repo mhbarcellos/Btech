@@ -198,6 +198,7 @@ export default function Services() {
                 key={service.title}
                 type="button"
                 onClick={() => setSelectedService(service)}
+                aria-label={`Ver detalhes do serviço ${service.title}`}
                 initial={{ opacity: 0, y: 22 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}

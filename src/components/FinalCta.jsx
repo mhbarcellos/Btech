@@ -54,6 +54,7 @@ export default function FinalCta() {
                     href={action.href}
                     target={action.href.startsWith("mailto:") ? undefined : "_blank"}
                     rel={action.href.startsWith("mailto:") ? undefined : "noreferrer"}
+                    aria-label={`Entrar em contato por ${action.label}: ${action.value}`}
                     className={`group rounded-2xl border p-5 text-left transition hover:-translate-y-1 ${
                       action.primary
                         ? "border-cyan/50 bg-cyan text-ink shadow-glow"

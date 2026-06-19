@@ -50,6 +50,7 @@ export default function Header() {
           href={contactLinks.whatsapp}
           target="_blank"
           rel="noreferrer"
+          aria-label="Fale conosco pelo WhatsApp"
           className="hidden items-center gap-2 rounded-lg border border-cyan/30 bg-cyan/10 px-5 py-3 text-sm font-semibold text-pearl transition hover:-translate-y-0.5 hover:border-cyan/70 hover:bg-cyan/20 lg:flex"
         >
           <MessageCircle size={18} />
@@ -86,6 +87,7 @@ export default function Header() {
             href={contactLinks.whatsapp}
             target="_blank"
             rel="noreferrer"
+            aria-label="Fale conosco pelo WhatsApp"
             className="mt-2 flex items-center justify-center gap-2 rounded-lg bg-electric px-5 py-3 font-semibold text-white transition hover:bg-cyan hover:text-ink"
           >
             <MessageCircle size={18} />

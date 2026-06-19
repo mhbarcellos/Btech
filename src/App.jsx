@@ -1,6 +1,7 @@
 import Header from "./components/Header.jsx";
 import Hero from "./components/Hero.jsx";
 import Services from "./components/Services.jsx";
+import SeoContent from "./components/SeoContent.jsx";
 import Projects from "./components/Projects.jsx";
 import Process from "./components/Process.jsx";
 import Differentials from "./components/Differentials.jsx";
@@ -15,6 +16,7 @@ export default function App() {
       <main>
         <Hero />
         <Services />
+        <SeoContent />
         <Projects />
         <Process />
         <Differentials />
